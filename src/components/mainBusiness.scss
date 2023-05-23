@@ -1,0 +1,29 @@
+.mainBusiness {
+  p {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .businessInner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 0 auto;
+    figure {
+      width: 48%;
+      margin: 1%;
+      text-align: center;
+      strong {
+        display: block;
+        margin: 20px 0 0 0;
+        font-size: 1.4rem;
+      }
+      span {
+        font-size: 1.1rem;
+        margin-bottom: 40px;
+        display: block;
+      }
+    }
+  }
+}

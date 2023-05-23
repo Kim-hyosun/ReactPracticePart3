@@ -1,0 +1,65 @@
+{
+  "galleryData": [
+    {
+      "id": 1,
+      "title": "Branding",
+      "img": "gallery1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Development",
+      "img": "gallery2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Analysis",
+      "img": "gallery3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Marketing",
+      "img": "gallery4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Design",
+      "img": "gallery5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Strategy",
+      "img": "gallery6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "book",
+      "img": "gallery7.jpg"
+    }
+  ],
+  "businessData": [
+    {
+      "id": 1,
+      "title": "Brokerage",
+      "des": "Theme Does Everything You Could Possibly Want It To Do",
+      "img": "img01.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Banking",
+      "des": "This Theme Does Everything You Could Possibly Want It To Do",
+      "img": "img02.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Contracts",
+      "des": "This Theme Does Everything You Could Possibly Want It To Do",
+      "img": "img03.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Agency",
+      "des": "있는 그와 그들에게 청춘에서만 이상, 피다.",
+      "img": "img04.jpg"
+    }
+  ]
+}

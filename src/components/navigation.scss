@@ -1,0 +1,59 @@
+.navigation {
+  display: flex;
+
+  .globalNav {
+    display: flex;
+    li {
+      position: relative; /* 소메뉴 포지션 기준 */
+      /* 각 각의 대메뉴 제목 */
+      a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.15rem;
+        padding: 0 20px;
+        height: 60px;
+        line-height: 60px;
+        transition: 0.3s;
+        &:hover {
+          background-color: #000;
+          color: #fff;
+        }
+      }
+      // 소메뉴
+      .subMenu {
+        box-shadow: 0px 1.9px 2.2px rgba(0, 0, 0, 0.02),
+          0px 4.5px 5.3px rgba(0, 0, 0, 0.028),
+          0px 8.4px 10px rgba(0, 0, 0, 0.035),
+          0px 15px 17.9px rgba(0, 0, 0, 0.042),
+          0px 28px 33.4px rgba(0, 0, 0, 0.05), 0px 67px 80px rgba(0, 0, 0, 0.07);
+        background-color: #fff;
+        width: 120px;
+        position: absolute;
+        top: 60px;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(10px);
+        transition: 0.3s;
+      }
+      &:hover .subMenu {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0);
+      }
+    }
+  }
+
+  .registry {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    a {
+      margin: 0 6px;
+      font-size: 14px;
+      text-decoration: none;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}

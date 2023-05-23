@@ -1,0 +1,44 @@
+@import "../assets/style/variable.scss";
+
+.kakaoMap {
+  width: $width;
+  margin: 50px auto;
+  .tabMenu {
+    position: relative;
+    padding-top: 50px;
+    li {
+      h2 {
+        width: 50%;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 2px solid #999;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.3em;
+        transition: 0.4s;
+      }
+      
+      .tabBtn2 {
+        left: 50%;
+      }
+      &.active h2 {
+        border-bottom: 3px solid #000;
+      }
+
+      .kakaoBox {
+        background-color: #ddd;
+        display: none;
+        #map {
+          height: 400px;
+        }
+      }
+      &.active .kakaoBox {
+        display: block;
+      }
+    }
+  }
+}

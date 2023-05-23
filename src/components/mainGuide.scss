@@ -1,0 +1,23 @@
+@import "../assets/style/variable.scss";
+
+.mainGuide {
+  width: $width;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 22.5vw;
+  div {
+    padding: 2.083vw;
+  }
+  .borderRight {
+    border-right: $borderBasic;
+  }
+  .borderBottom {
+    border-bottom: $borderBasic;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1.563vw 0;
+  }
+}

@@ -1,0 +1,45 @@
+.mainGallery {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-rows: 23vw;
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  // @each $반복변수명 in 반복값, 반복값, 반복값 {
+  //     #{$반복변수명} { }
+  // }
+  // @each $title, $size in (h1:2em, h2:1.5em, h3:1,3em) {
+  //   #{$title} {
+  //     font-size: $size;
+  // }
+
+  @each $num in 1, 2, 3, 4, 5, 6, 7 {
+    .bg#{$num} {
+      background: url("../assets/images/gallery#{$num}.jpg")
+        no-repeat
+        50% /
+        cover;
+      overflow: hidden;
+      &:hover h3 {
+        opacity: 1;
+        transform: translateY(0);
+        backdrop-filter: grayscale(70%) blur(5px);
+      }
+    }
+    .bg1 {
+      grid-row: 1 / 3;
+    }
+    .bg4 {
+      grid-column: 2 / 4;
+    }
+  }
+}
