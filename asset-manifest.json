@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactPracticePart3/static/css/main.9c180a06.css",
-    "main.js": "/ReactPracticePart3/static/js/main.6c262799.js",
+    "main.js": "/ReactPracticePart3/static/js/main.244fe32c.js",
     "static/media/PretendardVariable.woff2": "/ReactPracticePart3/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
     "static/media/gallery1.jpg": "/ReactPracticePart3/static/media/gallery1.277cca585f0c94271ccd.jpg",
     "static/media/imgBg.jpg": "/ReactPracticePart3/static/media/imgBg.6400846d244f903e215d.jpg",
@@ -13,10 +13,10 @@
     "static/media/gallery2.jpg": "/ReactPracticePart3/static/media/gallery2.74706fdcd90171c000ee.jpg",
     "index.html": "/ReactPracticePart3/index.html",
     "main.9c180a06.css.map": "/ReactPracticePart3/static/css/main.9c180a06.css.map",
-    "main.6c262799.js.map": "/ReactPracticePart3/static/js/main.6c262799.js.map"
+    "main.244fe32c.js.map": "/ReactPracticePart3/static/js/main.244fe32c.js.map"
   },
   "entrypoints": [
     "static/css/main.9c180a06.css",
-    "static/js/main.6c262799.js"
+    "static/js/main.244fe32c.js"
   ]
 }
