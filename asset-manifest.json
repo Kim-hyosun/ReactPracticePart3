@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactPracticePart3/static/css/main.9c180a06.css",
+    "main.js": "/ReactPracticePart3/static/js/main.6c262799.js",
+    "static/media/PretendardVariable.woff2": "/ReactPracticePart3/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
+    "static/media/gallery1.jpg": "/ReactPracticePart3/static/media/gallery1.277cca585f0c94271ccd.jpg",
+    "static/media/imgBg.jpg": "/ReactPracticePart3/static/media/imgBg.6400846d244f903e215d.jpg",
+    "static/media/gallery4.jpg": "/ReactPracticePart3/static/media/gallery4.4229bbdfa93a43172fe3.jpg",
+    "static/media/gallery6.jpg": "/ReactPracticePart3/static/media/gallery6.72f12f53d62c5ae502fe.jpg",
+    "static/media/gallery5.jpg": "/ReactPracticePart3/static/media/gallery5.c21171d91242f20c44bf.jpg",
+    "static/media/gallery7.jpg": "/ReactPracticePart3/static/media/gallery7.03686976f760dc57eca0.jpg",
+    "static/media/gallery3.jpg": "/ReactPracticePart3/static/media/gallery3.6a4dc0ddf96f5a9d042e.jpg",
+    "static/media/gallery2.jpg": "/ReactPracticePart3/static/media/gallery2.74706fdcd90171c000ee.jpg",
+    "index.html": "/ReactPracticePart3/index.html",
+    "main.9c180a06.css.map": "/ReactPracticePart3/static/css/main.9c180a06.css.map",
+    "main.6c262799.js.map": "/ReactPracticePart3/static/js/main.6c262799.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c180a06.css",
+    "static/js/main.6c262799.js"
+  ]
+}
