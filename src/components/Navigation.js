@@ -6,32 +6,32 @@ function Navigation() {
     <nav className="navigation">
       <ul className="globalNav">
         <li>
-          <Link to="/about">about</Link>
+          <Link to="/ReactPracticePart3/about">about</Link>
           <ul className="subMenu">
             <li>
-              <Link to="/about/m1">menu1</Link>
+              <Link to="/ReactPracticePart3/about/m1">menu1</Link>
             </li>
             <li>
-              <Link to="/about/m2">menu2</Link>
+              <Link to="/ReactPracticePart3/about/m2">menu2</Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link to="/service">service</Link>
+          <Link to="/ReactPracticePart3/service">service</Link>
         </li>
         <li>
-          <Link to="/product">product</Link>
+          <Link to="/ReactPracticePart3/product">product</Link>
         </li>
         <li>
-          <Link to="/board">board</Link>
+          <Link to="/ReactPracticePart3/board">board</Link>
         </li>
       </ul>
       <ul className="registry">
         <li>
-          <Link to="/login">login</Link>
+          <Link to="/ReactPracticePart3/login">login</Link>
         </li>
         <li>
-          <Link to="/join">join</Link>
+          <Link to="/ReactPracticePart3/join">join</Link>
         </li>
       </ul>
     </nav>

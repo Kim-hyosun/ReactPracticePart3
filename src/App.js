@@ -29,20 +29,20 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/ReactPracticePart3" element={<Main />} />
 
-        <Route path="/about">
+        <Route path="/ReactPracticePart3/about">
           <Route index element={<About />} />
           <Route path=":m1" element={<Menu1 />} />
           <Route path=":m2" element={<Menu2 />} />
         </Route>
 
-        <Route path="/service" element={<Service />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/board" element={<Board />} />
+        <Route path="/ReactPracticePart3/service" element={<Service />} />
+        <Route path="/ReactPracticePart3/product" element={<Product />} />
+        <Route path="/ReactPracticePart3/board" element={<Board />} />
 
-        <Route path="/login" element={<Login />} />
-        <Route path="/join" element={<Join />} />
+        <Route path="/ReactPracticePart3/login" element={<Login />} />
+        <Route path="/ReactPracticePart3/join" element={<Join />} />
 
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
