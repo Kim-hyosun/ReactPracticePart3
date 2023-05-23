@@ -30,7 +30,7 @@ function Header() {
   return (
     <header ref={headerRef}>
       <h1>
-        <Link to="/">
+        <Link to="/ReactPracticePart3">
           <img src={logo} alt="dyami 로고" />
         </Link>
       </h1>
